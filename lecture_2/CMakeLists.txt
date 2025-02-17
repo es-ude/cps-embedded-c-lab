@@ -1,4 +1,4 @@
-add_subdirectory(1-1_square_wave)
-add_subdirectory(1-2_rectangular_wave)
-add_subdirectory(2_pwm)
-add_subdirectory(3_rgb_led)
+add_subdirectory(square_wave)
+add_subdirectory(rectangular_wave)
+add_subdirectory(pwm)
+add_subdirectory(rgb_led)
