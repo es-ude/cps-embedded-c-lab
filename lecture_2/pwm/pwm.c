@@ -21,7 +21,7 @@ int main(void) {
 
     // Uncomment the following four lines to enable the computationally expensive operation
     // while (1) {
-    //     const bool result = is_prim(514229);
+    //     const bool result = is_prim(1997);
     //     printf("Is prim?: %d\n", result);
     // }
 

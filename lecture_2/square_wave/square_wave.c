@@ -18,7 +18,7 @@ int main(void) {
 
     while (1) {
         // Uncomment the following two lines to enable the computationally expensive operation
-        // const bool result = is_prim(514229);
+        // const bool result = is_prim(1997);
         // printf("Is prim?: %d\n", result);
     
         // TODO: Implement square wave generation
