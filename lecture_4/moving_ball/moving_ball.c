@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 #include "pico/stdlib.h"
-#include "ssd1306.h"
 #include "hardware/i2c.h"
+#include "ssd1306.h"
 #include "ball.h"
 
 

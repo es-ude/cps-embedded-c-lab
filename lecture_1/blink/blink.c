@@ -1,7 +1,7 @@
 #include "pico/stdlib.h"
 
-const uint32_t LED_DELAY_MS = 250;
-const uint8_t LED_PIN = 25;
+#define LED_PIN 25
+#define LED_DELAY_MS 250
 
 void led_init(void) {
     gpio_init(LED_PIN);
