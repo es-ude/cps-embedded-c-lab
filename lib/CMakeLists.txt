@@ -1,1 +1,4 @@
+add_subdirectory(hardware_setup)
+add_subdirectory(sensor_lib)
 add_subdirectory(ssd1306)
+add_subdirectory(pico-tflmicro)

@@ -1,2 +1,3 @@
-add_subdirectory(mcu_temperature)
-add_subdirectory(moving_ball)
+add_subdirectory(square_wave)
+add_subdirectory(pwm)
+add_subdirectory(rainbow_led)

@@ -1,0 +1,7 @@
+add_executable(test_data_adc_10_times test_data_adc_10_times.c)
+target_include_directories(test_data_adc_10_times PUBLIC .)
+target_link_libraries(test_data_adc_10_times pico_stdlib hardware_adc)
+
+pico_enable_stdio_usb(test_data_adc_10_times 1)
+pico_enable_stdio_uart(test_data_adc_10_times 0)
+pico_add_extra_outputs(test_data_adc_10_times)

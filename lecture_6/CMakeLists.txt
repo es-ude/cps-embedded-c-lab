@@ -1,0 +1,4 @@
+add_subdirectory(test_data_adc_10_times)
+add_subdirectory(test_data_adc_batch_reading)
+add_subdirectory(test_echo)
+add_subdirectory(test_hello)

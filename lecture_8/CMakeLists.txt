@@ -1,0 +1,2 @@
+add_subdirectory(speech_recognize)
+add_subdirectory(test_upload_microphone_data)

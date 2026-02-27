@@ -1,0 +1,7 @@
+add_executable(test_data_adc_batch_reading test_data_adc_batch_reading.c)
+target_include_directories(test_data_adc_batch_reading PUBLIC .)
+target_link_libraries(test_data_adc_batch_reading pico_stdlib hardware_adc hardware_setup)
+
+pico_enable_stdio_usb(test_data_adc_batch_reading 1)
+pico_enable_stdio_uart(test_data_adc_batch_reading 0)
+pico_add_extra_outputs(test_data_adc_batch_reading)

@@ -1,0 +1,7 @@
+add_executable(test_all_sensors test_all_sensors.c)
+target_include_directories(test_all_sensors PUBLIC .)
+target_link_libraries(test_all_sensors pico_stdlib hardware_setup sensor_lib)
+
+pico_enable_stdio_usb(test_all_sensors 1)
+pico_enable_stdio_uart(test_all_sensors 0)
+pico_add_extra_outputs(test_all_sensors)

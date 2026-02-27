@@ -1,0 +1,7 @@
+add_executable(test_upload_microphone_data test_upload_microphone_data.c)
+target_include_directories(test_upload_microphone_data PUBLIC .)
+target_link_libraries(test_upload_microphone_data pico_stdlib hardware_adc hardware_setup)
+
+pico_enable_stdio_usb(test_upload_microphone_data 1)
+pico_enable_stdio_uart(test_upload_microphone_data 0)
+pico_add_extra_outputs(test_upload_microphone_data)

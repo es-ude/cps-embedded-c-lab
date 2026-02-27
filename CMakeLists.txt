@@ -36,7 +36,10 @@ pico_sdk_init()
 # Add executable. Default name is the project name, version 0.1
 
 add_subdirectory(lib)
-add_subdirectory(lecture_1)
 add_subdirectory(lecture_2)
 add_subdirectory(lecture_3)
 add_subdirectory(lecture_4)
+add_subdirectory(lecture_5)
+add_subdirectory(lecture_6)
+add_subdirectory(lecture_7)
+add_subdirectory(lecture_8)

@@ -1,0 +1,7 @@
+add_executable(test_adc_microphone test_adc_microphone.c)
+target_include_directories(test_adc_microphone PUBLIC .)
+target_link_libraries(test_adc_microphone pico_stdlib hardware_setup sensor_lib)
+
+pico_enable_stdio_usb(test_adc_microphone 1)
+pico_enable_stdio_uart(test_adc_microphone 0)
+pico_add_extra_outputs(test_adc_microphone)

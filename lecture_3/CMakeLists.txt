@@ -1,4 +1,4 @@
-add_subdirectory(button_without_state_detection)
-add_subdirectory(button_states_simple)
-add_subdirectory(button_states_advanced)
-add_subdirectory(denoised_button)
+add_subdirectory(blink)
+add_subdirectory(sliding_led)
+add_subdirectory(increasing_led)
+add_subdirectory(custom_effect)
