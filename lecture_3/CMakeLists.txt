@@ -1,4 +1,4 @@
 add_subdirectory(blink)
 add_subdirectory(sliding_led)
-add_subdirectory(increasing_led)
 add_subdirectory(custom_effect)
+add_subdirectory(circuit_issues)
