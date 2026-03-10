@@ -1,25 +1,21 @@
 #include <stdio.h>
+#include <inttypes.h>
 #include "pico/stdlib.h"
+#include "prime_test.h"
 
+#define SIGNAL_PIN 8
+#define FREQUENCY 10000
 
-bool is_prim(uint64_t number) {
-    if (number < 2) return false;
-
-    for (uint64_t i = 2; i < number; i++)
-        if (number % i == 0)
-            return false;
-    return true;
-}
 
 int main(void) {
     stdio_init_all();
+
+    // TODO: Implement the square wave generation
 
     while (1) {
         // Uncomment the following two lines to enable the computationally expensive operation
         // const bool result = is_prim(1997);
         // printf("Is prim?: %d\n", result);
-    
-        // TODO: Implement square wave generation
     }
 
     return 0;

@@ -1,3 +1,2 @@
-add_subdirectory(square_wave)
-add_subdirectory(pwm)
+add_subdirectory(square_waves)
 add_subdirectory(rainbow_led)
