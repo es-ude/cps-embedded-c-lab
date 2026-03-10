@@ -1,4 +1,3 @@
-add_subdirectory(button_without_state_detection)
-add_subdirectory(button_states_simple)
-add_subdirectory(button_states_advanced)
-add_subdirectory(denoised_button)
+add_subdirectory(naive_button)
+add_subdirectory(button_states)
+add_subdirectory(button_denoising)
