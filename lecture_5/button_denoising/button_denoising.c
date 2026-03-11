@@ -1,8 +1,8 @@
 #include "pico/stdlib.h"
 
-#define BUTTON_PIN 5
+#define BUTTON_PIN 0
 #define NUM_LEDS 5
-const uint LED_PINS[NUM_LEDS] = {0, 1, 2, 3, 4};
+const uint LED_PINS[NUM_LEDS] = {2, 5, 4, 7, 6};
 
 typedef enum {UP, DOWN, PRESS, RELEASE} button_state_t;
 button_state_t previous_button_state = UP;
